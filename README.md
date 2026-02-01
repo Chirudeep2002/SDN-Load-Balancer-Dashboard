@@ -30,43 +30,6 @@ This project implements a Software Defined Networking (SDN) inspired load balanc
 
 ---
 
-## 🏗 Project Structure
-
-Project SDN/
-│
-├── clients/
-│ └── traffic_test.py
-│
-├── servers/
-│ ├── server_base.py
-│ ├── server1.py
-│ ├── server2.py
-│ └── server3.py
-│
-├── load_balancer/
-│ ├── balancer.py
-│ ├── autoscale.py
-│ ├── heartbeat.py
-│ ├── health_manager.py
-│ ├── cpu_weight_manager.py
-│ ├── lb_modes.py
-│ ├── metrics_manager.py
-│ ├── predictive_scaler.py
-│ ├── registry.py
-│ ├── resource_sim.py
-│ ├── admin_commands.json
-│ └── lb_mode.txt
-│
-├── dashboard/
-│ └── dashboard.py
-│
-├── metrics.json
-├── lb.log
-├── requirements.txt
-└── Execution_steps.txt
-
-
----
 
 ## ⚙️ Requirements
 
